@@ -32,3 +32,17 @@
         }
     }
 }
+
+/* More wifi */
+.more-wifi {
+    /* Explore */
+    & .explore {
+        & .explore__link:hover {
+            border-bottom: 1px solid #55555570;
+        }
+
+        & .explore__link:active {
+            border-bottom: 1px solid #55555570;
+        }
+    }
+}

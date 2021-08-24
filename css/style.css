@@ -150,6 +150,17 @@ html body .container {
   border-color: black;
 }
 
+/* More wifi */
+.more-wifi {
+  /* Explore */
+}
+.more-wifi .explore .explore__link:hover {
+  border-bottom: 1px solid #55555570;
+}
+.more-wifi .explore .explore__link:active {
+  border-bottom: 1px solid green;
+}
+
 @media (min-width: 75em) {
   .header-section .navbar {
     height: 6em;
