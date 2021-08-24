@@ -1,0 +1,28 @@
+/* Explore */ 
+.more-wifi {
+    & .explore {
+        margin: 6em 0;
+        color: #404040;
+        text-align: center;
+        & .explore__title {
+            font-size: 1.1em;
+            margin: 1em;
+            font-weight: normal;
+        }
+
+        & .explore__logo {
+            margin-bottom: 1.5em;
+        }
+
+        & .explore__link {
+            text-decoration: none;
+            display: block;
+            color: #404040;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            border-bottom: 1px solid #404040;
+            width: 6em;
+            margin: auto;
+        }
+    }
+}

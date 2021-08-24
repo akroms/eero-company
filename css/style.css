@@ -98,6 +98,31 @@ html body .container {
   height: 13vh;
 }
 
+/* Explore */
+.more-wifi .explore {
+  margin: 6em 0;
+  color: #404040;
+  text-align: center;
+}
+.more-wifi .explore .explore__title {
+  font-size: 1.1em;
+  margin: 1em;
+  font-weight: normal;
+}
+.more-wifi .explore .explore__logo {
+  margin-bottom: 1.5em;
+}
+.more-wifi .explore .explore__link {
+  text-decoration: none;
+  display: block;
+  color: #404040;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #404040;
+  width: 6em;
+  margin: auto;
+}
+
 .header-section .navbar .nav-list .nav-item:hover,
 .header-section .navbar .nav-list .active {
   border-bottom: 2px solid #555555b0;
@@ -155,6 +180,6 @@ html body .container {
 /* Normalize CSS */
 /* Navbar */
 /* ShowCase Section */
+/* More Wifi Section */
 /* Hover */
 /* Responsive */
-/* More Wifi Section */
