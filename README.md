@@ -1,7 +1,5 @@
 # eero-company
 
-# Dice Game 
-
 <img src="./gif/gif.gif" width="100%"/>
 
 To see this site demo
