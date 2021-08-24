@@ -1,0 +1,30 @@
+.header-section .showcase-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background-image: url(../images/connectivety-card-background.png);
+  background-size: cover;
+  background-position: center right;
+  height: 80vh;
+}
+.header-section .showcase-section .showcase-section__shop-btn {
+  display: block;
+  text-decoration: none;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  margin-top: 1em;
+  padding: 1em 2em;
+}
+.header-section .showcase-section .showcase-section__image {
+  width: 100%;
+  max-width: 30em;
+}
+.header-section .layer {
+  background: rgba(0, 0, 0, 0.5);
+  height: 9.6vh;
+  height: 13vh;
+}

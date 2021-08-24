@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+html body {
+  font-family: "Roboto", sans-serif;
+}
+html body img {
+  max-width: 100%;
+}
+html body .container {
+  width: 70%;
+  margin: auto;
+}
+
+.header-section .navbar {
+  height: 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-section .navbar .nav-brand {
+  margin-left: 3em;
+  width: 90px;
+}
+.header-section .navbar .nav-list {
+  list-style: none;
+  display: none;
+  width: 60%;
+  justify-content: space-evenly;
+}
+.header-section .navbar .nav-list .nav-item {
+  border-bottom: 2px solid transparent;
+  font-size: 1.125em;
+  padding-bottom: 5px;
+}
+.header-section .navbar .nav-list .nav-item a {
+  text-decoration: none;
+  color: #404040;
+}
+.header-section .navbar .nav-btn {
+  display: none;
+  align-items: center;
+  width: 10rem;
+  justify-content: center;
+  align-self: stretch;
+  background: #2468ff;
+}
+.header-section .navbar .nav-btn .nav-btn__item {
+  text-decoration: none;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.header-section .navbar .nav-toggle {
+  margin-right: 3em;
+}
+.header-section .navbar .nav-toggle .nav-toggle__item {
+  width: 1.3em;
+  height: 0.2em;
+  margin: 0.3em;
+  background-color: black;
+}
+
+.header-section .showcase-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background-image: url(../images/connectivety-card-background.png);
+  background-size: cover;
+  background-position: center right;
+  height: 80vh;
+}
+.header-section .showcase-section .showcase-section__shop-btn {
+  display: block;
+  text-decoration: none;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  margin-top: 1em;
+  padding: 1em 2em;
+}
+.header-section .showcase-section .showcase-section__image {
+  width: 100%;
+  max-width: 30em;
+}
+.header-section .layer {
+  background: rgba(0, 0, 0, 0.5);
+  height: 9.6vh;
+  height: 13vh;
+}
+
+.header-section .navbar .nav-list .nav-item:hover,
+.header-section .navbar .nav-list .active {
+  border-bottom: 2px solid #555555b0;
+  cursor: pointer;
+}
+.header-section .navbar .nav-list .nav-item:hover:active {
+  border-bottom: 2px solid #494848ea;
+  color: #494848ea;
+}
+.header-section .navbar .nav-btn:hover {
+  background: #2469ffe8;
+  cursor: pointer;
+}
+.header-section .navbar .nav-btn:active {
+  background: #2468ff;
+}
+.header-section .showcase-section .showcase-section__shop-btn:hover {
+  background-color: #fff;
+  color: black;
+  transition: ease-in 75ms;
+}
+.header-section .showcase-section .showcase-section__shop-btn:active {
+  background-color: #fff;
+  color: black;
+  border-color: black;
+}
+
+@media (min-width: 75em) {
+  .header-section .navbar {
+    height: 6em;
+  }
+  .header-section .navbar .nav-toggle {
+    display: none;
+  }
+  .header-section .navbar .nav-list, .header-section .navbar .nav-btn {
+    display: flex;
+  }
+  .header-section .navbar .nav-brand {
+    width: 110px;
+  }
+  .header-section .navbar .layer {
+    height: 9.6vh;
+  }
+  .header-section .showcase-section {
+    font-size: 1em;
+  }
+  .header-section .showcase-section .showcase-section__title {
+    font-size: 3.5em;
+  }
+  .header-section .showcase-section .showcase-section__subtitle {
+    font-size: 1.5em;
+  }
+}
+/* Base */
+/* Hover */

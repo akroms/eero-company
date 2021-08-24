@@ -1,0 +1,37 @@
+@media (min-width: 75em) {
+    .header-section {
+        & .navbar {
+            height: 6em;
+
+            & .nav-toggle {
+                display: none;
+            }
+
+            & .nav-list,
+            & .nav-btn {
+                display: flex;
+            }
+
+            & .nav-brand {
+                width: 110px;
+            }
+
+            & .layer {
+                height: 9.6vh;
+            }
+        }
+
+        & .showcase-section {
+            // & .showcase-section__image {
+            //     margin-top: 13em;
+            // }
+            font-size: 1em;
+            & .showcase-section__title {
+                font-size: 3.5em;
+            }
+            & .showcase-section__subtitle {
+                font-size: 1.5em;
+            }
+        }
+    }
+}

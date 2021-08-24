@@ -1,0 +1,34 @@
+.header-section {
+    & .navbar {
+        & .nav-list {
+            & .nav-item:hover,
+            .active {
+                border-bottom: 2px solid #555555b0;
+                cursor: pointer;
+            }
+            & .nav-item:hover:active {
+                border-bottom: 2px solid #494848ea;
+                color: #494848ea;
+            }
+        }
+        & .nav-btn:hover {
+            background: #2469ffe8;
+            cursor: pointer;
+        }
+        & .nav-btn:active {
+            background: #2468ff;
+        }
+    }
+    & .showcase-section {
+        & .showcase-section__shop-btn:hover {
+            background-color: #fff;
+            color: black;
+            transition: ease-in 75ms;
+        }
+        & .showcase-section__shop-btn:active {
+            background-color: #fff;
+            color: black;
+            border-color: black;
+        }
+    }
+}
