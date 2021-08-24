@@ -28,10 +28,17 @@
 /* More wifi */
 .more-wifi {
   /* Explore */
+  /* More Connection */
 }
 .more-wifi .explore .explore__link:hover {
   border-bottom: 1px solid #55555570;
 }
 .more-wifi .explore .explore__link:active {
   border-bottom: 1px solid #55555570;
+}
+.more-wifi .more-connection .more-connection__btn:hover {
+  background-color: #2469ffd7;
+}
+.more-wifi .more-connection .more-connection__btn:active {
+  background-color: #2468ff;
 }

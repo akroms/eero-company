@@ -45,4 +45,14 @@
             border-bottom: 1px solid #55555570;
         }
     }
+
+    /* More Connection */
+    .more-connection {
+        & .more-connection__btn:hover {
+            background-color: #2469ffd7;
+        }
+        & .more-connection__btn:active {
+            background-color: #2468ff;
+        }
+    }
 }
