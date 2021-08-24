@@ -1,4 +1,4 @@
-# eero-company
+# EERO-company
 
 <img src="./gif/gif.gif" width="100%"/>
 
