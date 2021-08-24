@@ -1,4 +1,4 @@
-# EERO-company
+# EERO-Company
 
 <img src="./gif/gif.gif" width="100%"/>
 
@@ -7,10 +7,6 @@ To see this site demo
 
 *****************************************************************
 Used technologies: 
-
-
-
-
 
 <div class="d-flex">
   <img style="margin-right:1em" src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="200"/>
