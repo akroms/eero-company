@@ -5,7 +5,7 @@
 <img src="./gif/gif.gif" width="100%"/>
 
 To see this site demo
-[click here](https://dice-gamee.netlify.app/)
+[click here](https://#.netlify.app/)
 
 *****************************************************************
 Used technologies: 
