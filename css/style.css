@@ -99,6 +99,9 @@ html body .container {
 }
 
 /* Explore */
+.more-wifi {
+  /* More Connection */
+}
 .more-wifi .explore {
   margin: 6em 0;
   color: #404040;
@@ -120,6 +123,39 @@ html body .container {
   text-transform: uppercase;
   border-bottom: 1px solid #404040;
   width: 6em;
+  margin: auto;
+}
+.more-wifi .more-connection .container {
+  width: 80%;
+  max-width: 42em;
+  margin: auto;
+  text-align: center;
+}
+.more-wifi .more-connection .more-connection__title {
+  margin: 1.5em 0;
+  font-size: 2.1em;
+  color: #404040;
+}
+.more-wifi .more-connection .more-connection__subtitle {
+  margin-bottom: 4em;
+  font-size: 1em;
+  color: #404040;
+  font-weight: normal;
+}
+.more-wifi .more-connection .more-connection__btn {
+  margin: 1.5em 0;
+  display: block;
+  text-decoration: none;
+  background-color: #2468ff;
+  padding: 1em 2em;
+  color: #fff;
+  max-width: 18em;
+  margin: auto;
+}
+.more-wifi .more-connection .more-connection__image {
+  display: block;
+  width: 80%;
+  max-width: 65em;
   margin: auto;
 }
 
@@ -158,7 +194,7 @@ html body .container {
   border-bottom: 1px solid #55555570;
 }
 .more-wifi .explore .explore__link:active {
-  border-bottom: 1px solid green;
+  border-bottom: 1px solid #55555570;
 }
 
 @media (min-width: 75em) {
