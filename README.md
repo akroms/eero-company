@@ -6,7 +6,7 @@ To see this site demo
 [click here](https://#.netlify.app/)
 
 *****************************************************************
-Used technologies: 
+Used technologies in this Project: 
 
 <div class="d-flex">
   <img style="margin-right:1em" src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="200"/>
