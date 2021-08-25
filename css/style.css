@@ -345,7 +345,18 @@ html body .container {
   height: 40vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.journal-section .journal-section__title {
+  margin-bottom: 1em;
+  max-width: 80%;
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #ffffff;
 }
 .journal-section .journal-section__subtitle {
-  max-width: 100%;
+  width: 80%;
+  text-align: center;
 }
