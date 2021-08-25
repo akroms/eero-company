@@ -56,3 +56,25 @@
         }
     }
 }
+
+/* Wifi Section */
+
+.wifi-router {
+    & .wifi-router__cards {
+        & .wifi-router__card {
+            & .wifi-router__btn:hover {
+                background-color: #2469ffc9;
+            }
+            & .wifi-router__btn:active {
+                background-color: #2468ff;
+            }
+        }
+    }
+    & .wifi-router__allmodels:hover {
+        border-bottom: 1px solid #ffffff80;
+        cursor: pointer;
+    }
+    & .wifi-router__allmodels:active {
+        border-bottom: 1px solid #55555570;
+    }
+}

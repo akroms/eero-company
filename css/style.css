@@ -159,86 +159,6 @@ html body .container {
   margin: auto;
 }
 
-.header-section .navbar .nav-list .nav-item:hover,
-.header-section .navbar .nav-list .active {
-  border-bottom: 2px solid #555555b0;
-  cursor: pointer;
-}
-.header-section .navbar .nav-list .nav-item:hover:active {
-  border-bottom: 2px solid #494848ea;
-  color: #494848ea;
-}
-.header-section .navbar .nav-btn:hover {
-  background: #2469ffe8;
-  cursor: pointer;
-}
-.header-section .navbar .nav-btn:active {
-  background: #2468ff;
-}
-.header-section .showcase-section .showcase-section__shop-btn:hover {
-  background-color: #fff;
-  color: black;
-  transition: ease-in 75ms;
-}
-.header-section .showcase-section .showcase-section__shop-btn:active {
-  background-color: #fff;
-  color: black;
-  border-color: black;
-}
-
-/* More wifi */
-.more-wifi {
-  /* Explore */
-  /* More Connection */
-}
-.more-wifi .explore .explore__link:hover {
-  border-bottom: 1px solid #55555570;
-}
-.more-wifi .explore .explore__link:active {
-  border-bottom: 1px solid #55555570;
-}
-.more-wifi .more-connection .more-connection__btn:hover {
-  background-color: #2469ffd7;
-}
-.more-wifi .more-connection .more-connection__btn:active {
-  background-color: #2468ff;
-}
-
-/* Min width 1200px*/
-@media (min-width: 75em) {
-  .header-section .navbar {
-    height: 6em;
-  }
-  .header-section .navbar .nav-toggle {
-    display: none;
-  }
-  .header-section .navbar .nav-list, .header-section .navbar .nav-btn {
-    display: flex;
-  }
-  .header-section .navbar .nav-brand {
-    width: 110px;
-  }
-  .header-section .navbar .layer {
-    height: 9.6vh;
-  }
-  .header-section .showcase-section {
-    font-size: 1em;
-  }
-  .header-section .showcase-section .showcase-section__title {
-    font-size: 3.5em;
-  }
-  .header-section .showcase-section .showcase-section__subtitle {
-    font-size: 1.5em;
-  }
-}
-/* Base */
-/* Normalize CSS */
-/* Navbar */
-/* ShowCase Section */
-/* More Wifi Section */
-/* Hover */
-/* Responsive */
-/* Wifi Router Section */
 .wifi-router {
   background-image: url(../images/eero-6-wifi.png);
   background-size: cover;
@@ -297,11 +217,72 @@ html body .container {
   padding: 0.7em 0;
   text-transform: uppercase;
   border-bottom: 1px solid #fff;
-  max-width: 12em;
+  max-width: 11em;
 }
 
-/* Min width 40em*/
+.header-section .navbar .nav-list .nav-item:hover,
+.header-section .navbar .nav-list .active {
+  border-bottom: 2px solid #555555b0;
+  cursor: pointer;
+}
+.header-section .navbar .nav-list .nav-item:hover:active {
+  border-bottom: 2px solid #494848ea;
+  color: #494848ea;
+}
+.header-section .navbar .nav-btn:hover {
+  background: #2469ffe8;
+  cursor: pointer;
+}
+.header-section .navbar .nav-btn:active {
+  background: #2468ff;
+}
+.header-section .showcase-section .showcase-section__shop-btn:hover {
+  background-color: #fff;
+  color: black;
+  transition: ease-in 75ms;
+}
+.header-section .showcase-section .showcase-section__shop-btn:active {
+  background-color: #fff;
+  color: black;
+  border-color: black;
+}
+
+/* More wifi */
+.more-wifi {
+  /* Explore */
+  /* More Connection */
+}
+.more-wifi .explore .explore__link:hover {
+  border-bottom: 1px solid #55555570;
+}
+.more-wifi .explore .explore__link:active {
+  border-bottom: 1px solid #55555570;
+}
+.more-wifi .more-connection .more-connection__btn:hover {
+  background-color: #2469ffd7;
+}
+.more-wifi .more-connection .more-connection__btn:active {
+  background-color: #2468ff;
+}
+
+/* Wifi Section */
+.wifi-router .wifi-router__cards .wifi-router__card .wifi-router__btn:hover {
+  background-color: #2469ffc9;
+}
+.wifi-router .wifi-router__cards .wifi-router__card .wifi-router__btn:active {
+  background-color: #2468ff;
+}
+.wifi-router .wifi-router__allmodels:hover {
+  border-bottom: 1px solid #ffffff80;
+  cursor: pointer;
+}
+.wifi-router .wifi-router__allmodels:active {
+  border-bottom: 1px solid #55555570;
+}
+
+/* Min width 880px*/
 @media (min-width: 55em) {
+  /* Wifi Router Section */
   .wifi-router {
     background-position: top;
     padding: 1em;
@@ -320,3 +301,38 @@ html body .container {
     margin: auto;
   }
 }
+/* Min width 1200px*/
+@media (min-width: 75em) {
+  .header-section .navbar {
+    height: 6em;
+  }
+  .header-section .navbar .nav-toggle {
+    display: none;
+  }
+  .header-section .navbar .nav-list, .header-section .navbar .nav-btn {
+    display: flex;
+  }
+  .header-section .navbar .nav-brand {
+    width: 110px;
+  }
+  .header-section .navbar .layer {
+    height: 9.6vh;
+  }
+  .header-section .showcase-section {
+    font-size: 1em;
+  }
+  .header-section .showcase-section .showcase-section__title {
+    font-size: 3.5em;
+  }
+  .header-section .showcase-section .showcase-section__subtitle {
+    font-size: 1.5em;
+  }
+}
+/* Base */
+/* Normalize CSS */
+/* Navbar */
+/* ShowCase Section */
+/* More Wifi Section */
+/* Wifi Router Section */
+/* Hover */
+/* Responsive */

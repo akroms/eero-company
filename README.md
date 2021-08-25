@@ -26,4 +26,5 @@ like React or Vue
 
 ![Used Technologies](./images/Techs.png "Used Technologies: HTML CSS JAVASCRIPT")
 
+        23 - August 2021
  -->

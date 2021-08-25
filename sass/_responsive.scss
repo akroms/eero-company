@@ -1,4 +1,27 @@
+/* Min width 880px*/
+@media (min-width: 55em) {
+    /* Wifi Router Section */
+    .wifi-router {
+        background-position: top;
+        padding: 1em;
+        & .wifi-router__cards {
+            display: flex;
+            padding-top: 0em;
+            
+            height: 131vh;
+            align-items: flex-end;
+            justify-content: space-between;
+            
+            & .wifi-router__card {
+                margin: 10em 0;
 
+            }
+        }
+        & .wifi-router__allmodels {
+            margin: auto;
+        }
+    }
+}
 
 /* Min width 1200px*/
 @media (min-width: 75em) {
