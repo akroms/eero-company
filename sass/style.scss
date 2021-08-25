@@ -22,6 +22,17 @@
 /* Responsive */
 @use 'responsive';
 
+.journal-section {
+    background-color: #404040;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    & .journal-section__title {
 
+    }
+    & .journal-section__subtitle {
+        max-width: 100%;
+    }
+}
 
 
