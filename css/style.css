@@ -238,3 +238,63 @@ html body .container {
 /* Hover */
 /* Responsive */
 /* Wifi Router Section */
+.wifi-router {
+  background-image: url(../images/eero-6-wifi.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  color: #fff;
+}
+.wifi-router .container {
+  width: 80%;
+}
+.wifi-router .wifi-router__cards {
+  padding-top: 5em;
+}
+.wifi-router .wifi-router__cards .wifi-router__card {
+  margin: 4em 0;
+}
+.wifi-router .wifi-router__cards .wifi-router__card .wifi-router__version {
+  border-radius: 20px;
+  background-color: #fff;
+  color: black;
+  display: inline-block;
+  padding: 0.3em 1.1em;
+  margin: 0.3em 0;
+}
+.wifi-router .wifi-router__cards .wifi-router__card .wifi-router__model {
+  margin-bottom: 0.6em;
+  font-weight: normal;
+  font-size: 2.25em;
+}
+.wifi-router .wifi-router__cards .wifi-router__card .wifi-router__title {
+  font-size: 1.4em;
+  margin: 1em 0;
+}
+.wifi-router .wifi-router__cards .wifi-router__card .wifi-router__subtitle {
+  font-size: 1.1em;
+  font-weight: lighter;
+}
+.wifi-router .wifi-router__cards .wifi-router__card .wifi-router__price {
+  margin: 1.5em 0;
+}
+.wifi-router .wifi-router__cards .wifi-router__card .wifi-router__btn {
+  color: #fff;
+  background-color: #2468ff;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 1em 0;
+  margin-top: 1em;
+  width: 100%;
+  max-width: 16em;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+.wifi-router .wifi-router__allmodels {
+  margin-top: -3em;
+  padding: 1em 0;
+  text-transform: uppercase;
+  border-bottom: 1px solid #fff;
+  max-width: 12em;
+}
