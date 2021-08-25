@@ -1,0 +1,60 @@
+/* Min width 880px*/
+@media (min-width: 55em) {
+  /* Wifi Router Section */
+  .wifi-router {
+    background-position: top;
+    padding: 1em;
+  }
+  .wifi-router .wifi-router__cards {
+    display: flex;
+    padding-top: 0em;
+    height: 131vh;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  .wifi-router .wifi-router__cards .wifi-router__card {
+    margin: 10em 0;
+  }
+  .wifi-router .wifi-router__allmodels {
+    margin: auto;
+  }
+}
+/* Min width 1200px*/
+@media (min-width: 75em) {
+  .header-section .navbar {
+    height: 6em;
+  }
+  .header-section .navbar .nav-toggle {
+    display: none;
+  }
+  .header-section .navbar .nav-list, .header-section .navbar .nav-btn {
+    display: flex;
+  }
+  .header-section .navbar .nav-brand {
+    width: 110px;
+  }
+  .header-section .navbar .layer {
+    height: 9.6vh;
+  }
+  .header-section .showcase-section {
+    font-size: 1em;
+  }
+  .header-section .showcase-section .showcase-section__title {
+    font-size: 3.5em;
+  }
+  .header-section .showcase-section .showcase-section__subtitle {
+    font-size: 1.5em;
+  }
+
+  /* Journal Section */
+  .journal-section {
+    font-size: 1.5em;
+  }
+  .journal-section .journal-section__title {
+    margin-bottom: 1em;
+    max-width: 80%;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #ffffff;
+  }
+}

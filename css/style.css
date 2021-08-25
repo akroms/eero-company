@@ -224,6 +224,27 @@ html body .container {
   color: #fff;
 }
 
+.journal-section {
+  background-color: #404040;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+.journal-section .journal-section__title {
+  margin-bottom: 1em;
+  max-width: 80%;
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #ffffff;
+}
+.journal-section .journal-section__subtitle {
+  width: 80%;
+}
+
 .header-section .navbar .nav-list .nav-item:hover,
 .header-section .navbar .nav-list .active {
   border-bottom: 2px solid #555555b0;
@@ -331,6 +352,18 @@ html body .container {
   .header-section .showcase-section .showcase-section__subtitle {
     font-size: 1.5em;
   }
+
+  /* Journal Section */
+  .journal-section {
+    font-size: 1.5em;
+  }
+  .journal-section .journal-section__title {
+    margin-bottom: 1em;
+    max-width: 80%;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #ffffff;
+  }
 }
 /* Base */
 /* Normalize CSS */
@@ -338,25 +371,5 @@ html body .container {
 /* ShowCase Section */
 /* More Wifi Section */
 /* Wifi Router Section */
-/* Hover */
+/* Journal Section */
 /* Responsive */
-.journal-section {
-  background-color: #404040;
-  height: 40vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-}
-.journal-section .journal-section__title {
-  margin-bottom: 1em;
-  max-width: 80%;
-  font-weight: bold;
-  font-size: 1.3em;
-  color: #ffffff;
-}
-.journal-section .journal-section__subtitle {
-  width: 80%;
-  text-align: center;
-}

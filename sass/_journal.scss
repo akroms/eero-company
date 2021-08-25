@@ -1,0 +1,20 @@
+.journal-section {
+    background-color: #404040;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    & .journal-section__title {
+        margin-bottom: 1em;
+        max-width: 80%;
+        font-weight: bold;
+        font-size: 1.3em;
+        color: #ffffff;
+    }
+    & .journal-section__subtitle {
+        width: 80%;
+    }
+}
