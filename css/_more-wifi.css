@@ -52,9 +52,6 @@
   max-width: 18em;
   margin: auto;
 }
-.more-wifi .more-connection .more-connection__btn a {
-  text-decoration: none;
-}
 .more-wifi .more-connection .more-connection__image {
   display: block;
   width: 80%;

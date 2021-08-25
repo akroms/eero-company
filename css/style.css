@@ -219,6 +219,10 @@ html body .container {
   border-bottom: 1px solid #fff;
   max-width: 11em;
 }
+.wifi-router .wifi-router__allmodels a {
+  text-decoration: none;
+  color: #fff;
+}
 
 .header-section .navbar .nav-list .nav-item:hover,
 .header-section .navbar .nav-list .active {
