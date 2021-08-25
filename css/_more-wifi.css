@@ -1,0 +1,63 @@
+/* Explore */
+.more-wifi {
+  /* More Connection */
+}
+.more-wifi .explore {
+  margin: 6em 0;
+  color: #404040;
+  text-align: center;
+}
+.more-wifi .explore .explore__title {
+  font-size: 1.1em;
+  margin: 1em;
+  font-weight: normal;
+}
+.more-wifi .explore .explore__logo {
+  margin-bottom: 1.5em;
+}
+.more-wifi .explore .explore__link {
+  text-decoration: none;
+  display: block;
+  color: #404040;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #404040;
+  width: 6em;
+  margin: auto;
+}
+.more-wifi .more-connection .container {
+  width: 80%;
+  max-width: 42em;
+  margin: auto;
+  text-align: center;
+}
+.more-wifi .more-connection .more-connection__title {
+  margin: 1.5em 0;
+  font-size: 2.1em;
+  color: #404040;
+}
+.more-wifi .more-connection .more-connection__subtitle {
+  margin-bottom: 4em;
+  font-size: 1em;
+  color: #404040;
+  font-weight: normal;
+}
+.more-wifi .more-connection .more-connection__btn {
+  margin: 1.5em 0;
+  display: block;
+  text-decoration: none;
+  background-color: #2468ff;
+  padding: 1em 2em;
+  color: #fff;
+  max-width: 18em;
+  margin: auto;
+}
+.more-wifi .more-connection .more-connection__btn a {
+  text-decoration: none;
+}
+.more-wifi .more-connection .more-connection__image {
+  display: block;
+  width: 80%;
+  max-width: 65em;
+  margin: auto;
+}
