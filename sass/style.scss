@@ -76,9 +76,34 @@
     }
     & .wifi-router__allmodels {
         margin-top: -3em;
-        padding: 1em 0;
+        padding: 0.7em 0;
         text-transform: uppercase;
         border-bottom: 1px solid #fff;
         max-width: 12em;
     }
 }
+
+/* Min width 40em*/
+@media (min-width: 55em) {
+    .wifi-router {
+        background-position: top;
+        padding: 1em;
+        & .wifi-router__cards {
+            display: flex;
+            padding-top: 0em;
+            
+            height: 131vh;
+            align-items: flex-end;
+            justify-content: space-between;
+            
+            & .wifi-router__card {
+                margin: 10em 0;
+
+            }
+        }
+        & .wifi-router__allmodels {
+            margin: auto;
+        }
+    }
+}
+
