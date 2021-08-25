@@ -18,3 +18,34 @@
 
 /* Responsive */
 @use 'responsive';
+
+/* Wifi Router Section */
+
+.wifi-router {
+    & .wifi-router__cards {
+        & .wifi-router__card {
+            & .wifi-router__version {
+
+            }
+            & .wifi-router__model {
+                
+            }
+            & .wifi-router__title {
+                
+            }
+            & .wifi-router__subtitle {
+                
+            }
+            & .wifi-router__price {
+                
+            }
+            & .wifi-router__btn {
+                
+            }
+        }
+    }
+    
+    & .wifi-router__allmodels {
+        
+    }
+}
