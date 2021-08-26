@@ -415,6 +415,7 @@ html body .container {
 }
 .whole-home__title, .whole-home__subtitle, .whole-home__btn {
   margin: 1em 0;
+  text-align: center;
 }
 .whole-home__btn {
   text-decoration: none;
@@ -422,6 +423,7 @@ html body .container {
   color: #fff;
   text-transform: uppercase;
   padding: 0.6em 1em;
+  font-size: 0.9em;
   max-width: 16em;
   margin: 2em auto;
 }
