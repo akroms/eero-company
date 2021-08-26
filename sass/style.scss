@@ -24,3 +24,22 @@
 
 /* Responsive */
 @use 'responsive';
+
+/* Wifi Home Section */ 
+
+.wifi-home {
+    .d-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+    }
+    &__title,
+    &__subtitle {
+        margin: 0.7em 0;
+    }
+    &__image {
+        margin-top: 1em;
+    }
+}
+

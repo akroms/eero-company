@@ -373,3 +373,16 @@ html body .container {
 /* Wifi Router Section */
 /* Journal Section */
 /* Responsive */
+/* Wifi Home Section */
+.wifi-home .d-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+.wifi-home__title, .wifi-home__subtitle {
+  margin: 0.7em 0;
+}
+.wifi-home__image {
+  margin-top: 1em;
+}
