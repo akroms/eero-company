@@ -325,6 +325,19 @@ html body .container {
   .wifi-router .wifi-router__allmodels {
     margin: auto;
   }
+
+  .wifi-home {
+    /* Wifi Home Section */
+  }
+  .wifi-home .wifi-home .d-flex {
+    height: 140vh;
+  }
+  .wifi-home .wifi-home__title, .wifi-home .wifi-home__subtitle {
+    margin: 0.7em 0;
+  }
+  .wifi-home .wifi-home__image {
+    margin-top: 1em;
+  }
 }
 /* Min width 1200px*/
 @media (min-width: 75em) {
@@ -379,9 +392,13 @@ html body .container {
   flex-direction: column;
   justify-content: center;
   height: 100vh;
+  text-align: center;
 }
 .wifi-home__title, .wifi-home__subtitle {
   margin: 0.7em 0;
+}
+.wifi-home__subtitle {
+  color: #404040;
 }
 .wifi-home__image {
   margin-top: 1em;

@@ -33,10 +33,14 @@
         flex-direction: column;
         justify-content: center;
         height: 100vh;
+        text-align: center;
     }
     &__title,
     &__subtitle {
         margin: 0.7em 0;
+    }
+    &__subtitle {
+        color: #404040;
     }
     &__image {
         margin-top: 1em;

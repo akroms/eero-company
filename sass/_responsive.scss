@@ -7,18 +7,33 @@
         & .wifi-router__cards {
             display: flex;
             padding-top: 0em;
-            
+
             height: 131vh;
             align-items: flex-end;
             justify-content: space-between;
-            
+
             & .wifi-router__card {
                 margin: 10em 0;
-
             }
         }
         & .wifi-router__allmodels {
             margin: auto;
+        }
+    }
+    .wifi-home {
+        /* Wifi Home Section */
+        .wifi-home {
+            .d-flex {
+                height: 140vh;
+                font-size: 1.2em;
+            }
+            &__title,
+            &__subtitle {
+                margin: 0.7em 0;
+            }
+            &__image {
+                margin-top: 1em;
+            }
         }
     }
 }
