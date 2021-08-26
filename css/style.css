@@ -245,6 +245,24 @@ html body .container {
   width: 80%;
 }
 
+/* Wifi Home Section */
+.wifi-home .d-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+  text-align: center;
+}
+.wifi-home__title, .wifi-home__subtitle {
+  margin: 0.7em 0;
+}
+.wifi-home__subtitle {
+  color: #404040;
+}
+.wifi-home__image {
+  margin-top: 1em;
+}
+
 .header-section .navbar .nav-list .nav-item:hover,
 .header-section .navbar .nav-list .active {
   border-bottom: 2px solid #555555b0;
@@ -326,17 +344,16 @@ html body .container {
     margin: auto;
   }
 
-  .wifi-home {
-    /* Wifi Home Section */
-  }
-  .wifi-home .wifi-home .d-flex {
+  /* Wifi Home Section */
+  .wifi-home .d-flex {
     height: 140vh;
+    font-size: 1.3em;
   }
-  .wifi-home .wifi-home__title, .wifi-home .wifi-home__subtitle {
-    margin: 0.7em 0;
+  .wifi-home__title, .wifi-home__subtitle {
+    margin: 1em 0;
   }
-  .wifi-home .wifi-home__image {
-    margin-top: 1em;
+  .wifi-home__image {
+    margin-top: 2em;
   }
 }
 /* Min width 1200px*/
@@ -385,21 +402,6 @@ html body .container {
 /* More Wifi Section */
 /* Wifi Router Section */
 /* Journal Section */
-/* Responsive */
 /* Wifi Home Section */
-.wifi-home .d-flex {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100vh;
-  text-align: center;
-}
-.wifi-home__title, .wifi-home__subtitle {
-  margin: 0.7em 0;
-}
-.wifi-home__subtitle {
-  color: #404040;
-}
-.wifi-home__image {
-  margin-top: 1em;
-}
+/* Hover */
+/* Responsive */

@@ -1,0 +1,17 @@
+/* Wifi Home Section */
+.wifi-home .d-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+  text-align: center;
+}
+.wifi-home__title, .wifi-home__subtitle {
+  margin: 0.7em 0;
+}
+.wifi-home__subtitle {
+  color: #404040;
+}
+.wifi-home__image {
+  margin-top: 1em;
+}
