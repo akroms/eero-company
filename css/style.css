@@ -405,3 +405,8 @@ html body .container {
 /* Wifi Home Section */
 /* Hover */
 /* Responsive */
+/* Whole home */
+.whole-home {
+  background-color: #161F49;
+  color: #fff;
+}
