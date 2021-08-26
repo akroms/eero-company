@@ -31,6 +31,23 @@
 /* Whole home */
 
 .whole-home {
-    background-color: #161F49;
+    .d-flex {
+        height: 100vh;
+    }
+    background-color: #161f49;
     color: #fff;
+    &__title,
+    &__subtitle,
+    &__btn {
+        margin: 1em 0;
+    }
+    &__btn {
+        text-decoration: none;
+        background-color: #2468FF;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 0.6em 1em;
+        max-width: 16em;
+        margin:2em auto;
+    }
 }
