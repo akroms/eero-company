@@ -246,6 +246,10 @@ html body .container {
 }
 
 /* Wifi Home Section */
+.wifi-home {
+  /* Wi-Fi home */
+  /* Whole home */
+}
 .wifi-home .d-flex {
   display: flex;
   flex-direction: column;
@@ -261,6 +265,27 @@ html body .container {
 }
 .wifi-home__image {
   margin-top: 1em;
+}
+.wifi-home .whole-home {
+  background-color: #161f49;
+  color: #fff;
+}
+.wifi-home .whole-home .d-flex {
+  height: 100vh;
+}
+.wifi-home .whole-home__title, .wifi-home .whole-home__subtitle, .wifi-home .whole-home__btn {
+  margin: 1em 0;
+  text-align: center;
+}
+.wifi-home .whole-home__btn {
+  text-decoration: none;
+  background-color: #2468ff;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0.6em 1em;
+  font-size: 0.9em;
+  max-width: 16em;
+  margin: 2em auto;
 }
 
 .header-section .navbar .nav-list .nav-item:hover,
@@ -321,6 +346,15 @@ html body .container {
 }
 .wifi-router .wifi-router__allmodels:active {
   border-bottom: 1px solid #55555570;
+}
+
+/* Whole home */
+.whole-home__btn:hover {
+  cursor: pointer;
+  background-color: #2469ffc5;
+}
+.whole-home__btn:active {
+  background-color: #2468ff;
 }
 
 /* Min width 880px*/
@@ -405,34 +439,3 @@ html body .container {
 /* Wifi Home Section */
 /* Hover */
 /* Responsive */
-/* Whole home */
-.whole-home {
-  background-color: #161f49;
-  color: #fff;
-}
-.whole-home .d-flex {
-  height: 100vh;
-}
-.whole-home__title, .whole-home__subtitle, .whole-home__btn {
-  margin: 1em 0;
-  text-align: center;
-}
-.whole-home__btn {
-  text-decoration: none;
-  background-color: #2468ff;
-  color: #fff;
-  text-transform: uppercase;
-  padding: 0.6em 1em;
-  font-size: 0.9em;
-  max-width: 16em;
-  margin: 2em auto;
-}
-
-/* Whole home */
-.whole-home__btn:hover {
-  cursor: pointer;
-  background-color: #2469ffc5;
-}
-.whole-home__btn:active {
-  background-color: #2468ff;
-}

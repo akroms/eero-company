@@ -78,3 +78,15 @@
         border-bottom: 1px solid #55555570;
     }
 }
+
+/* Whole home */
+
+.whole-home {
+    &__btn:hover {
+        cursor: pointer;
+        background-color: #2469ffc5;
+    }
+    &__btn:active {
+        background-color: #2468ff;
+    }
+}

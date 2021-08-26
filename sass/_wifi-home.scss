@@ -1,6 +1,7 @@
 /* Wifi Home Section */
 
 .wifi-home {
+    /* Wi-Fi home */
     .d-flex {
         display: flex;
         flex-direction: column;
@@ -17,5 +18,30 @@
     }
     &__image {
         margin-top: 1em;
+    }
+
+    /* Whole home */
+    .whole-home {
+        .d-flex {
+            height: 100vh;
+        }
+        background-color: #161f49;
+        color: #fff;
+        &__title,
+        &__subtitle,
+        &__btn {
+            margin: 1em 0;
+            text-align: center;
+        }
+        &__btn {
+            text-decoration: none;
+            background-color: #2468ff;
+            color: #fff;
+            text-transform: uppercase;
+            padding: 0.6em 1em;
+            font-size: 0.9em;
+            max-width: 16em;
+            margin: 2em auto;
+        }
     }
 }
