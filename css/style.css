@@ -419,11 +419,20 @@ html body .container {
 }
 .whole-home__btn {
   text-decoration: none;
-  background-color: #2468FF;
+  background-color: #2468ff;
   color: #fff;
   text-transform: uppercase;
   padding: 0.6em 1em;
   font-size: 0.9em;
   max-width: 16em;
   margin: 2em auto;
+}
+
+/* Whole home */
+.whole-home__btn:hover {
+  cursor: pointer;
+  background-color: #2469ffc5;
+}
+.whole-home__btn:active {
+  background-color: #2468ff;
 }

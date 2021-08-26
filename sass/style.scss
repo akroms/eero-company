@@ -44,12 +44,24 @@
     }
     &__btn {
         text-decoration: none;
-        background-color: #2468FF;
+        background-color: #2468ff;
         color: #fff;
         text-transform: uppercase;
         padding: 0.6em 1em;
         font-size: 0.9em;
         max-width: 16em;
-        margin:2em auto;
+        margin: 2em auto;
+    }
+}
+
+/* Whole home */
+
+.whole-home {
+    &__btn:hover {
+        cursor: pointer;
+        background-color: #2469ffc5;
+    }
+    &__btn:active {
+        background-color: #2468ff;
     }
 }
