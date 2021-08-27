@@ -90,3 +90,19 @@
         background-color: #2468ff;
     }
 }
+
+/* Never Worry Wifi Section Hover*/
+.never-worry {
+    &-wifi {
+        & .never-worry__card {
+            & .never-worry__btn:hover {
+                $hover-worry:#4040409a;
+                color: $hover-worry;
+                border-color: $hover-worry;
+            }
+            & .never-worry__btn:active {
+                color: #404040;
+            }
+        }
+    }
+}
