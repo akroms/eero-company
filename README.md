@@ -1,6 +1,6 @@
 # EERO-Company
 
-<img src="./gif/gif.gif" width="100%" alt="Will pe image"/>
+<img src="./gif/gif.gif" width="100%" alt="Will be image"/>
 
 To see this site demo
 [click here](https://#.netlify.app/)
