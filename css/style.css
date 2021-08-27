@@ -288,6 +288,39 @@ html body .container {
   margin: 2em auto;
 }
 
+/* Never Worry Wifi Section */
+.never-worry-wifi .never-worry__title-section {
+  color: #404040;
+  text-align: center;
+  font-size: 2em;
+  margin: 1em 0 0 0;
+}
+.never-worry-wifi .never-worry__card {
+  max-width: 30em;
+  color: #404040;
+  margin: 2em 0;
+}
+.never-worry-wifi .never-worry__card .never-worry__icon {
+  margin: 0 0 1em 0;
+}
+.never-worry-wifi .never-worry__card .never-worry__title {
+  margin: 0.7em 0;
+  font-weight: normal;
+  font-size: 1.4em;
+}
+.never-worry-wifi .never-worry__card .never-worry__subtitle {
+  font-size: 1em;
+}
+.never-worry-wifi .never-worry__card .never-worry__btn {
+  color: #404040;
+  display: block;
+  margin: 1em 0 0 0;
+  text-decoration: none;
+  border-bottom: 1px solid #404040;
+  padding: 0 0 0.4em 0;
+  max-width: 10em;
+}
+
 .header-section .navbar .nav-list .nav-item:hover,
 .header-section .navbar .nav-list .active {
   border-bottom: 2px solid #555555b0;
@@ -357,6 +390,15 @@ html body .container {
   background-color: #2468ff;
 }
 
+/* Never Worry Wifi Section Hover*/
+.never-worry-wifi .never-worry__card .never-worry__btn:hover {
+  color: #4040409a;
+  border-color: #4040409a;
+}
+.never-worry-wifi .never-worry__card .never-worry__btn:active {
+  color: #404040;
+}
+
 /* Min width 880px*/
 @media (min-width: 55em) {
   /* Wifi Router Section */
@@ -388,6 +430,30 @@ html body .container {
   }
   .wifi-home__image {
     margin-top: 2em;
+  }
+
+  /* Never Worry Wifi Section */
+  .never-worry-wifi .never-worry__cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  .never-worry-wifi .never-worry__title-section {
+    font-size: 2.4em;
+    margin: 2em 0 1.5em 0;
+  }
+  .never-worry-wifi .never-worry__card {
+    color: #404040;
+    margin: 2em 1em 4em 1em;
+    max-width: 14em;
+  }
+  .never-worry-wifi .never-worry__card .never-worry__icon {
+    margin: 0 0 1em 0;
+  }
+  .never-worry-wifi .never-worry__card .never-worry__title {
+    font-size: 1.8em;
+  }
+  .never-worry-wifi .never-worry__card .never-worry__btn {
+    margin: 5em 0 0 0;
   }
 }
 /* Min width 1200px*/
@@ -437,43 +503,6 @@ html body .container {
 /* Wifi Router Section */
 /* Journal Section */
 /* Wifi Home Section */
+/* Never Worry Wifi Section */
 /* Hover */
 /* Responsive */
-/* Never Worry Wifi Section */
-.never-worry-wifi .never-worry__title-section {
-  color: #404040;
-  text-align: center;
-  font-size: 2em;
-  margin: 1em 0 0 0;
-}
-.never-worry-wifi .never-worry__card {
-  color: #404040;
-  margin: 2em 0;
-}
-.never-worry-wifi .never-worry__card .never-worry__icon {
-  margin: 0 0 1em 0;
-}
-.never-worry-wifi .never-worry__card .never-worry__title {
-  font-size: 1.4em;
-}
-.never-worry-wifi .never-worry__card .never-worry__subtitle {
-  font-size: 1em;
-}
-.never-worry-wifi .never-worry__card .never-worry__btn {
-  color: #404040;
-  display: block;
-  margin: 1em 0 0 0;
-  text-decoration: none;
-  border-bottom: 1px solid #404040;
-  padding: 0 0 0.4em 0;
-  max-width: 10em;
-}
-
-/* Never Worry Wifi Section Hover*/
-.never-worry-wifi .never-worry__card .never-worry__btn:hover {
-  color: #4040409a;
-  border-color: #4040409a;
-}
-.never-worry-wifi .never-worry__card .never-worry__btn:active {
-  color: #404040;
-}
