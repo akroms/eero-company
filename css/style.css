@@ -271,7 +271,7 @@ html body .container {
   color: #fff;
 }
 .wifi-home .whole-home .d-flex {
-  height: 100vh;
+  height: 40em;
 }
 .wifi-home .whole-home__title, .wifi-home .whole-home__subtitle, .wifi-home .whole-home__btn {
   margin: 1em 0;
