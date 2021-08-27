@@ -468,3 +468,12 @@ html body .container {
   padding: 0 0 0.4em 0;
   max-width: 10em;
 }
+
+/* Never Worry Wifi Section Hover*/
+.never-worry-wifi .never-worry__card .never-worry__btn:hover {
+  color: #4040409a;
+  border-color: #4040409a;
+}
+.never-worry-wifi .never-worry__card .never-worry__btn:active {
+  color: #404040;
+}
