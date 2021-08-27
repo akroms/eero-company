@@ -435,7 +435,7 @@ html body .container {
   /* Never Worry Wifi Section */
   .never-worry-wifi .never-worry__cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .never-worry-wifi .never-worry__title-section {
     font-size: 2.4em;
