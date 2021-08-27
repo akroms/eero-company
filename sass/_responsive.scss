@@ -35,6 +35,34 @@
             margin-top: 2em;
         }
     }
+
+    /* Never Worry Wifi Section */
+    .never-worry {
+        &-wifi {
+            & .never-worry__cards {
+                display: flex;
+                justify-content: space-between;
+            }
+            & .never-worry__title-section {
+                font-size: 2.4em;
+                margin: 2em 0 1.5em 0;
+            }
+            & .never-worry__card {
+                color: #404040;
+                margin: 2em 1em 4em 1em;
+                max-width: 14em;
+                & .never-worry__icon {
+                    margin: 0 0 1em 0;
+                }
+                & .never-worry__title {
+                    font-size: 1.8em;
+                }
+                & .never-worry__btn {
+                    margin: 5em 0 0 0;
+                }
+            }
+        }
+    }
 }
 
 /* Min width 1200px*/
