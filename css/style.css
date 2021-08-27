@@ -439,3 +439,32 @@ html body .container {
 /* Wifi Home Section */
 /* Hover */
 /* Responsive */
+/* Never Worry Wifi Section */
+.never-worry-wifi .never-worry__title-section {
+  color: #404040;
+  text-align: center;
+  font-size: 2em;
+  margin: 1em 0 0 0;
+}
+.never-worry-wifi .never-worry__card {
+  color: #404040;
+  margin: 2em 0;
+}
+.never-worry-wifi .never-worry__card .never-worry__icon {
+  margin: 0 0 1em 0;
+}
+.never-worry-wifi .never-worry__card .never-worry__title {
+  font-size: 1.4em;
+}
+.never-worry-wifi .never-worry__card .never-worry__subtitle {
+  font-size: 1em;
+}
+.never-worry-wifi .never-worry__card .never-worry__btn {
+  color: #404040;
+  display: block;
+  margin: 1em 0 0 0;
+  text-decoration: none;
+  border-bottom: 1px solid #404040;
+  padding: 0 0 0.4em 0;
+  max-width: 10em;
+}
