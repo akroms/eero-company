@@ -39,8 +39,7 @@
     background-image: url(../images/stay-connected-background.png);
     background-position: center;
     background-size: cover;
-    height: 60vh;
-
+    height: 50em;
     color: white;
     &__title {
         font-size: 2em;
@@ -73,27 +72,10 @@
 /* Stay Connected Section */
 
 .stay-connected {
-    display: flex;
-    text-align: center;
-    background-image: url(../images/stay-connected-background.png);
-    background-position: center;
-    background-size: cover;
-    height: 60vh;
-
     color: white;
     &__title {
-        font-size: 2em;
+        font-size: 3.3em;
+        margin: 1em 0;
     }
-    &__btn {
-        font-weight: bold;
-        font-size: 0.9em;
-        text-transform: uppercase;
-        color: #ffffff;
-        background: #2468ff;
-        text-decoration: none;
-        display: block;
-        padding: 1em 0;
-        max-width: 14em;
-        margin: 1em auto;
-    }
+   
 }
