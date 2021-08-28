@@ -455,6 +455,15 @@ html body .container {
   .never-worry-wifi .never-worry__card .never-worry__btn {
     margin: 5em 0 0 0;
   }
+
+  /* Stay Connected Section */
+  .stay-connected {
+    color: white;
+  }
+  .stay-connected__title {
+    font-size: 3.3em;
+    margin: 1em 0;
+  }
 }
 /* Min width 1200px*/
 @media (min-width: 75em) {
@@ -530,12 +539,4 @@ html body .container {
   padding: 1em 0;
   max-width: 14em;
   margin: 1em auto;
-}
-
-/* Stay Connected Section */
-.stay-connected__btn:hover {
-  background: #2469ffd3;
-}
-.stay-connected__btn:active {
-  background: #2468ff;
 }
