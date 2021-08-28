@@ -321,6 +321,33 @@ html body .container {
   max-width: 10em;
 }
 
+/* Stay Connected Section */
+.stay-connected {
+  display: flex;
+  text-align: center;
+  background-image: url(../images/stay-connected-background.png);
+  background-position: center;
+  background-size: cover;
+  height: 30em;
+  color: white;
+}
+.stay-connected__title {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+.stay-connected__btn {
+  font-weight: bold;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #2468ff;
+  text-decoration: none;
+  display: block;
+  padding: 1em 0;
+  max-width: 14em;
+  margin: 1em auto;
+}
+
 .header-section .navbar .nav-list .nav-item:hover,
 .header-section .navbar .nav-list .active {
   border-bottom: 2px solid #555555b0;
@@ -399,6 +426,14 @@ html body .container {
   color: #404040;
 }
 
+/* Stay Connected Section */
+.stay-connected__btn:hover {
+  background: #2469ffd3;
+}
+.stay-connected__btn:active {
+  background: #2468ff;
+}
+
 /* Min width 880px*/
 @media (min-width: 55em) {
   /* Wifi Router Section */
@@ -458,10 +493,11 @@ html body .container {
 
   /* Stay Connected Section */
   .stay-connected {
+    height: 50em;
     color: white;
   }
   .stay-connected__title {
-    font-size: 3.3em;
+    font-size: 3em;
     margin: 1em 0;
   }
 }
@@ -513,30 +549,6 @@ html body .container {
 /* Journal Section */
 /* Wifi Home Section */
 /* Never Worry Wifi Section */
+/* Stay Connected Section */
 /* Hover */
 /* Responsive */
-/* Stay Connected Section */
-.stay-connected {
-  display: flex;
-  text-align: center;
-  background-image: url(../images/stay-connected-background.png);
-  background-position: center;
-  background-size: cover;
-  height: 50em;
-  color: white;
-}
-.stay-connected__title {
-  font-size: 2em;
-}
-.stay-connected__btn {
-  font-weight: bold;
-  font-size: 0.9em;
-  text-transform: uppercase;
-  color: #ffffff;
-  background: #2468ff;
-  text-decoration: none;
-  display: block;
-  padding: 1em 0;
-  max-width: 14em;
-  margin: 1em auto;
-}

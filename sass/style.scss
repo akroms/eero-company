@@ -25,39 +25,11 @@
 /* Never Worry Wifi Section */
 @use "never_worry";
 
+/* Stay Connected Section */
+@use "stay-connected";
+
 /* Hover */
 @use "hover";
 
 /* Responsive */
 @use 'responsive';
-
-/* Stay Connected Section */
-
-.stay-connected {
-    display: flex;
-    text-align: center;
-    background-image: url(../images/stay-connected-background.png);
-    background-position: center;
-    background-size: cover;
-    height: 50em;
-    color: white;
-    &__title {
-        font-size: 2em;
-    }
-    &__btn {
-        font-weight: bold;
-        font-size: 0.9em;
-        text-transform: uppercase;
-        color: #ffffff;
-        background: #2468ff;
-        text-decoration: none;
-        display: block;
-        padding: 1em 0;
-        max-width: 14em;
-        margin: 1em auto;
-    }
-}
-
-
-
-

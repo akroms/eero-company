@@ -57,10 +57,11 @@
 
   /* Stay Connected Section */
   .stay-connected {
+    height: 50em;
     color: white;
   }
   .stay-connected__title {
-    font-size: 3.3em;
+    font-size: 3em;
     margin: 1em 0;
   }
 }
