@@ -106,3 +106,14 @@
         }
     }
 }
+
+/* Stay Connected Section */
+
+.stay-connected {
+    &__btn:hover {
+        background: #2469ffd3;
+    }
+    &__btn:active {
+        background: #2468ff;
+    }
+}
