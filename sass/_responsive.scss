@@ -63,6 +63,16 @@
             }
         }
     }
+
+    /* Stay Connected Section */
+
+    .stay-connected {
+        color: white;
+        &__title {
+            font-size: 3.3em;
+            margin: 1em 0;
+        }
+    }
 }
 
 /* Min width 1200px*/
