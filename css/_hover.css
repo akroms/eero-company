@@ -75,3 +75,11 @@
 .never-worry-wifi .never-worry__card .never-worry__btn:active {
   color: #404040;
 }
+
+/* Stay Connected Section */
+.stay-connected__btn:hover {
+  background: #2469ffd3;
+}
+.stay-connected__btn:active {
+  background: #2468ff;
+}
