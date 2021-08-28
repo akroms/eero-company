@@ -539,12 +539,3 @@ html body .container {
 .stay-connected__btn:active {
   background: #2468ff;
 }
-
-/* Stay Connected Section */
-.stay-connected {
-  color: white;
-}
-.stay-connected__title {
-  font-size: 3.3em;
-  margin: 1em 0;
-}
