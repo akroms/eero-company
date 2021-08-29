@@ -96,7 +96,7 @@
     &-wifi {
         & .never-worry__card {
             & .never-worry__btn:hover {
-                $hover-worry:#4040409a;
+                $hover-worry: #4040409a;
                 color: $hover-worry;
                 border-color: $hover-worry;
             }
@@ -115,5 +115,41 @@
     }
     &__btn:active {
         background: #2468ff;
+    }
+}
+
+/* Footer Section */
+.footer {
+    .footer-links {
+        .footer-links__col {
+            a:hover {
+                color: rgba(255, 255, 255, 0.404);
+            }
+            a:active {
+                color: #fff;
+            }
+        }
+        &__contact {
+            & .email-btn:hover {
+                background-color: #fff;
+                color: black;
+            }
+            & .email-btn:active {
+                border: 1px solid #ffffff;
+                color: #ffff;
+                background-color: transparent;
+            }
+        }
+    }
+
+    .footer-copyright {
+        &__social {
+            img:hover {
+                transform: scale(1.225);
+            }
+            img:active {
+                transform: scale(1);
+            }
+        }
     }
 }
