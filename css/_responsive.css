@@ -1,0 +1,158 @@
+/* Min width 880px*/
+@media (min-width: 55em) {
+  /* Wifi Router Section */
+  .wifi-router {
+    background-position: top;
+    padding: 1em;
+  }
+  .wifi-router .wifi-router__cards {
+    display: flex;
+    padding-top: 0em;
+    height: 131vh;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  .wifi-router .wifi-router__cards .wifi-router__card {
+    margin: 10em 0;
+  }
+  .wifi-router .wifi-router__allmodels {
+    margin: auto;
+  }
+
+  /* Wifi Home Section */
+  .wifi-home .d-flex {
+    height: 140vh;
+    font-size: 1.3em;
+  }
+  .wifi-home__title, .wifi-home__subtitle {
+    margin: 1em 0;
+  }
+  .wifi-home__image {
+    margin-top: 2em;
+  }
+
+  /* Never Worry Wifi Section */
+  .never-worry-wifi .never-worry__cards {
+    display: flex;
+    justify-content: space-around;
+  }
+  .never-worry-wifi .never-worry__title-section {
+    font-size: 2.4em;
+    margin: 2em 0 1.5em 0;
+  }
+  .never-worry-wifi .never-worry__card {
+    color: #404040;
+    margin: 2em 1em 4em 1em;
+    max-width: 14em;
+  }
+  .never-worry-wifi .never-worry__card .never-worry__icon {
+    margin: 0 0 1em 0;
+  }
+  .never-worry-wifi .never-worry__card .never-worry__title {
+    font-size: 1.8em;
+  }
+  .never-worry-wifi .never-worry__card .never-worry__btn {
+    margin: 5em 0 0 0;
+  }
+
+  /* Stay Connected Section */
+  .stay-connected {
+    height: 50em;
+    color: white;
+  }
+  .stay-connected__title {
+    font-size: 3em;
+    margin: 1em 0;
+  }
+
+  /* Footer Section */
+  .footer {
+    text-align: start;
+    padding: 2.2em 0;
+  }
+  .footer .footer-brand {
+    padding: 2.2em 0;
+  }
+  .footer .footer-links {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer .footer-links .footer-links__col a {
+    margin: 0.8em 0;
+  }
+  .footer .footer-links__contact {
+    margin: 1.5em 0;
+  }
+  .footer .footer-links__contact .footer-links__title {
+    font-size: 2.2em;
+  }
+  .footer .footer-links__contact .footer-links__subtitle {
+    font-size: 1.3em;
+  }
+  .footer .footer-links__contact .footer-links__input, .footer .footer-links__contact .footer-links__title, .footer .footer-links__contact .footer-links__subtitle {
+    margin: 0;
+  }
+  .footer .footer-links__contact .footer-links__input, .footer .footer-links__contact .footer-links__subtitle {
+    margin: 1em 0;
+  }
+  .footer .footer-links__contact .footer-links__input {
+    margin: 0 0 3.3em 0;
+  }
+  .footer .footer-links__contact .email-btn {
+    margin: 0 0 0 2em;
+  }
+  .footer .footer-copyright {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 0;
+  }
+  .footer .footer-copyright__title {
+    padding: 0;
+  }
+  .footer .footer-copyright__social {
+    padding: 0;
+  }
+  .footer .footer-copyright__social img {
+    margin: 0;
+  }
+}
+/* Min width 1200px*/
+@media (min-width: 75em) {
+  .header-section .navbar {
+    height: 6em;
+  }
+  .header-section .navbar .nav-toggle {
+    display: none;
+  }
+  .header-section .navbar .nav-list, .header-section .navbar .nav-btn {
+    display: flex;
+  }
+  .header-section .navbar .nav-brand {
+    width: 110px;
+  }
+  .header-section .navbar .layer {
+    height: 9.6vh;
+  }
+  .header-section .showcase-section {
+    font-size: 1em;
+  }
+  .header-section .showcase-section .showcase-section__title {
+    font-size: 3.5em;
+  }
+  .header-section .showcase-section .showcase-section__subtitle {
+    font-size: 1.5em;
+  }
+
+  /* Journal Section */
+  .journal-section {
+    font-size: 1.5em;
+  }
+  .journal-section .journal-section__title {
+    margin-bottom: 1em;
+    max-width: 80%;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #ffffff;
+  }
+}
