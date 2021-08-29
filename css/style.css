@@ -586,3 +586,6 @@ html body .container {
 .footer .footer-copyright__title, .footer .footer-copyright__social {
   padding: 0.7em;
 }
+.footer .footer-copyright__social img {
+  margin: 0 0.3em;
+}
