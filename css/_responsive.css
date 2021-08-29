@@ -114,7 +114,7 @@
     padding: 0;
   }
   .footer .footer-copyright__social img {
-    margin: 0;
+    margin: 0 0.6em;
   }
 }
 /* Min width 1200px*/
