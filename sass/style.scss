@@ -35,3 +35,11 @@
 @use 'responsive';
 
 /* Footer Section */
+
+.footer {
+    background-color:#161F49;
+    color: white;
+    & .footer-brand {
+        padding:2em 0;
+    }   
+}
