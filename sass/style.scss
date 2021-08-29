@@ -77,14 +77,16 @@
                 padding: 0.8em 0;
                 background-color: transparent;
                 border: none;
-                font-size: 1.2em;
+                font-size: 1.12em;
                 border-bottom: 1px solid #fff;
                 max-width: 13em;
                 color: #fff;
                 outline:none;
+                text-transform: uppercase;
             }
 
             & .email-btn {
+                text-transform: uppercase;
                 border: 1px solid #FFFFFF;
                 color: #ffff;
                 padding: 1em 3em;
