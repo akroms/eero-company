@@ -554,9 +554,35 @@ html body .container {
 /* Responsive */
 /* Footer Section */
 .footer {
-  background-color: #161F49;
+  text-align: center;
+  background-color: #161f49;
   color: white;
 }
 .footer .footer-brand {
   padding: 2em 0;
+}
+.footer__links {
+  margin: 2em 0;
+}
+.footer .footer-links .footer-links__col a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1em;
+  margin: 0.4em 0;
+}
+.footer .footer-links__contact {
+  margin: 1.5em 0;
+}
+.footer .footer-links__contact .footer-links__title {
+  font-size: 2em;
+}
+.footer .footer-links__contact .footer-links__subtitle {
+  font-size: 1.3em;
+}
+.footer .footer-links__contact .footer-links__input, .footer .footer-links__contact .footer-links__title, .footer .footer-links__contact .footer-links__subtitle {
+  margin: 0.7em;
+}
+.footer .footer-copyright__title, .footer .footer-copyright__social {
+  padding: 0.7em;
 }
