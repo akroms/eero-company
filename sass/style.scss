@@ -73,7 +73,22 @@
             }
 
             & .footer-links__input {
+                margin: 0 0 3.3em 0;
+                padding: 0.8em 0;
+                background-color: transparent;
+                border: none;
+                font-size: 1.2em;
+                border-bottom: 1px solid #fff;
+                max-width: 13em;
+                color: #fff;
+                outline:none;
+            }
 
+            & .email-btn {
+                border: 1px solid #FFFFFF;
+                color: #ffff;
+                padding: 1em 3em;
+                text-decoration: none;
             }
 
         }
@@ -85,6 +100,7 @@
             padding: 0.7em;
         }
         &__social {
+            padding: 1em 0 2em 0;
             img {
                 margin: 0 0.3em;
             }
