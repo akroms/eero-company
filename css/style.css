@@ -583,8 +583,28 @@ html body .container {
 .footer .footer-links__contact .footer-links__input, .footer .footer-links__contact .footer-links__title, .footer .footer-links__contact .footer-links__subtitle {
   margin: 0.7em;
 }
+.footer .footer-links__contact .footer-links__input {
+  margin: 0 0 3.3em 0;
+  padding: 0.8em 0;
+  background-color: transparent;
+  border: none;
+  font-size: 1.2em;
+  border-bottom: 1px solid #fff;
+  max-width: 13em;
+  color: #fff;
+  outline: none;
+}
+.footer .footer-links__contact .email-btn {
+  border: 1px solid #FFFFFF;
+  color: #ffff;
+  padding: 1em 3em;
+  text-decoration: none;
+}
 .footer .footer-copyright__title, .footer .footer-copyright__social {
   padding: 0.7em;
+}
+.footer .footer-copyright__social {
+  padding: 1em 0 2em 0;
 }
 .footer .footer-copyright__social img {
   margin: 0 0.3em;
