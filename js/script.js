@@ -50,7 +50,7 @@ let styleHtml = `
 // Checks if it is on/off
 let clicked = () => {
     if (style.innerHTML == styleHtml) {
-        style.innerHTML = " ";
+        style.innerHTML = "";
     } else {
         style.innerHTML = styleHtml;
     }
