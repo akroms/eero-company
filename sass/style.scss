@@ -5,7 +5,7 @@
 @use "normalize";
 
 /* Navbar */
-@use 'navbar';
+// @use 'navbar';
 
 /* ShowCase Section */
 @use 'showcase';
@@ -38,3 +38,39 @@
 @use 'responsive';
 
 
+
+/* Navbar toggle */
+
+
+/* 
+
+
+.header-section {
+    & .navbar {
+        height: auto; // 4em
+        flex-direction: column; // row
+        justify-content: center; // space-between
+
+        & .nav-brand {
+            display: none; // block
+        }
+
+        & .nav-list {
+            margin: 1em 0; // margin:0; 
+            display: block; // none
+            width: 45%; // 60%        
+        }
+
+        & .nav-btn {
+            margin: 0 0 2em 0; // margin:0; 
+            display: block; // none
+        }
+
+        & .nav-toggle {
+            display: none; // block
+        }
+    }
+}
+
+
+*/ 
